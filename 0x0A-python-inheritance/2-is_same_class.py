@@ -1,12 +1,13 @@
 #!/usr/bin/python3
-
-"""
-Function that returns True if an object is an instance of specified class
-"""
-
-
 def is_same_class(obj, a_class):
-        """
-            Function to determine if obj is an instance of a_class
-                """
-                    return True if type(obj) is a_class else False
+        """ Function that returns True/False if obj is a type of a_class
+
+            Args:
+                    obj: object
+                            a_class: class type
+
+                                Returns:
+                                        True if type of obj is a_class
+                                                False, otherwise
+                                                    """
+                                                        return type(obj) is a_class
