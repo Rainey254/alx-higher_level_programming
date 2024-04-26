@@ -1,8 +1,5 @@
 #!/usr/bin/node
-
-let i = 2;
-
-while (i < process.argv.length) {
-  console.log(process.argv[i]);
-  i++;
+const args = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
+for (const arg in args) {
+  console.log(args[arg]);
 }
